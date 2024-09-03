@@ -21,26 +21,26 @@ def test_max_movements():
     for _ in range(50):
         train.move_right()
     assert train.position == 50
-    train.move_right()  # Should not move
+    train.move_right()  
     assert train.position == 50
 
 def test_max_movements():
     train = Train()
-    for _ in range(10):  # Move 10 times to the right
+    for _ in range(10): 
         train.move_right()
-    for _ in range(10):  # Move 10 times to the left
+    for _ in range(10): 
         train.move_left()
-    for _ in range(10):  # Move 10 times to the right again
+    for _ in range(10):  
         train.move_right()
-    for _ in range(10):  # Move 10 times to the left again
+    for _ in range(10):  
         train.move_left()
-    for _ in range(10):  # Move 10 times to the right to reach 50 moves
+    for _ in range(10):  
         train.move_right()
 
-    assert train.position == 10  # After 50 moves, the position should be 10 (net right movement)
+    assert train.position == 10  
 
-    train.move_right()  # Should not move further
-    assert train.position == 10  # Position should remain the same after hitting the 50 move limit
+    train.move_right()  
+    assert train.position == 10  
 
 
 def test_execute_commands():
