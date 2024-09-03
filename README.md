@@ -158,6 +158,15 @@ Os testes abrangem os seguintes aspectos:
     -   `test_max_consecutive_moves`: Garante que o trem gere um erro se fizer mais de 20 movimentos consecutivos na mesma direção.
     -   `test_execute_commands`: Verifica se o trem executa uma série de comandos e termina na posição correta.
 
+## Para executar o projeto sem rodar os testes, você pode seguir os seguintes passos:
+
+-   **Preparar o Ambiente** Certifique-se de que o ambiente virtual está ativado e que as dependências necessárias estão instaladas.
+
+- **Executar o Script Principal** Para executar o projeto, você pode rodar o script principal que você acabou de criar:
+   `python main.py`
+   
+ - **Executar Diferentes Conjuntos de Comandos** Você pode modificar a lista de comandos no `main.py` ou no interpretador interativo para testar diferentes cenários e ver como o trem reage a diferentes entradas.
+
 ## Contribuindo
 
 Agradecemos contribuições da comunidade! Se você tiver sugestões para melhorar este projeto ou se encontrar algum bug, sinta-se à vontade para bifurcar o repositório e enviar um pull request. Para grandes mudanças, considere abrir um issue primeiro para discutir as mudanças propostas.
@@ -165,5 +174,4 @@ Agradecemos contribuições da comunidade! Se você tiver sugestões para melhor
 ## Licença
 
 Este projeto é licenciado sob a Licença MIT. 
-
 
